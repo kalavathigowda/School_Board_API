@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.school.sba.entity.Schedule;
 import com.school.sba.entity.School;
+import com.school.sba.exception.*;
 import com.school.sba.repository.ScheduleRepository;
 import com.school.sba.repository.SchoolRepository;
 import com.school.sba.repository.UserRepository;
@@ -18,7 +19,6 @@ import com.school.sba.responsedto.ScheduleResponse;
 import com.school.sba.responsedto.SchoolResponse;
 import com.school.sba.service.ScheduleService;
 import com.school.sba.util.ResponseStructure;
-import com.school.exception.*;
 
 import jakarta.validation.Valid;
 

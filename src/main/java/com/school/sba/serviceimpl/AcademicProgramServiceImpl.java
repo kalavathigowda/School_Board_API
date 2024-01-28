@@ -12,13 +12,13 @@ import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.school.exception.DataAlreadyExistException;
-import com.school.exception.InvalidProgramTypeException;
-import com.school.exception.SchoolNotFoundByIdException;
 import com.school.sba.entity.AcademicProgram;
 import com.school.sba.entity.Schedule;
 import com.school.sba.entity.School;
 import com.school.sba.enums.ProgramType;
+import com.school.sba.exception.DataAlreadyExistException;
+import com.school.sba.exception.InvalidProgramTypeException;
+import com.school.sba.exception.SchoolNotFoundByIdException;
 import com.school.sba.repository.AcademicProgramRepository;
 import com.school.sba.repository.ScheduleRepository;
 import com.school.sba.repository.SchoolRepository;

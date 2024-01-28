@@ -9,9 +9,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.school.exception.AcademicProgamNotFoundException;
 import com.school.sba.entity.School;
 import com.school.sba.entity.Subject;
+import com.school.sba.exception.AcademicProgamNotFoundException;
 import com.school.sba.repository.AcademicProgramRepository;
 import com.school.sba.repository.SubjectRepository;
 import com.school.sba.requestdto.SubjectRequest;

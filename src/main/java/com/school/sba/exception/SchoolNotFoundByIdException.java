@@ -1,4 +1,4 @@
-package com.school.exception;
+package com.school.sba.exception;
 
 public class SchoolNotFoundByIdException extends RuntimeException {
 	private String message;

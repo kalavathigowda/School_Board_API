@@ -1,20 +1,22 @@
-package com.school.exception;
+package com.school.sba.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
+
 @Getter
-@Setter
 @AllArgsConstructor
-public class AdminAlreadyExitsException extends RuntimeException {
+public class ScheduleNotFoundBySchoolIdException extends RuntimeException{
 
 	private String message;
 
 	public String getMessage() {
 		return message;
 	}
-	public AdminAlreadyExitsException(String message) {
+
+	public ScheduleNotFoundBySchoolIdException(String message) {
 		super();
 		this.message = message;
 	}
+	
+	
 }

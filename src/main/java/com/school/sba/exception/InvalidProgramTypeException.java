@@ -1,4 +1,4 @@
-package com.school.exception;
+package com.school.sba.exception;
 
 public class InvalidProgramTypeException extends Exception {
     

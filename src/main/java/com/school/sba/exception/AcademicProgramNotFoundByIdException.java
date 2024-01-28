@@ -1,18 +1,19 @@
-package com.school.exception;
+package com.school.sba.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class DataAlreadyExistException extends RuntimeException {
+public class AcademicProgramNotFoundByIdException extends RuntimeException{
+
 	private String message;
 
 	public String getMessage() {
 		return message;
 	}
 
-	public DataAlreadyExistException(String message) {
+	public AcademicProgramNotFoundByIdException(String message) {
 		super();
 		this.message = message;
 	}

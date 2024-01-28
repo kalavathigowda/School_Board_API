@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.school.exception.UserNotFoundByIdException;
+import com.school.sba.exception.UserNotFoundByIdException;
 
 public class ApplicationExceptionHandler {
 
